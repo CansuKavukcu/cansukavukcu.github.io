@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="survey.css">
+    <title>Recruiter Survey</title>
+</head>
+
+<body>
+
+    <h1>Which recruitment topic you're most interested?</h1>
+
+    <form>
+        <label for="name">enter name:</label>
+        <input type="text" id="name" name="name" placeholder="name" required>
+        <br><br>
+        <label for="surname">enter surname:</label>
+        <input type="text" id="surname" name="surname" placeholder=" surname" required>
+        <br><br>
+        <label for="company-name"> company's name:</label>
+        <input type="text" id="company-name" name="company-name" placeholder="company's name" required>
+
+        <p>Make a choose:</p>
+        <ul>
+            <li><input type="radio" name="topic" value="Sourcing" id="option-1">
+                <label for="option-1">Sourcing</label></li>
+            <li><input type="radio" name="topic" value="Candidate Experience" id="option-2">
+                <label for="option-2">Candidate Experience</label></li>
+            <li><input type="radio" name="topic" value="Interviewing" id="option-3">
+                <label for="option-3">Interviewing</label></li>
+            <li><input type="radio" name="topic" value="HR-People Analytic" id="option-4">
+                <label for="option-4">HR-People Analytic</label></li>
+
+
+        </ul>
+        <p>Please check</p>
+        <input type="checkbox" id="employment-status" name="employment-status" value="employment-status">
+        <label for="employment-status"> I am actively working</label>
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+h1{
+    color: orangered;
+    background-color: lightgray;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Arial;
+    text-align: center;
+}
+form p{
+    color: rgb(230, 102, 51);
+    background-color: lightyellow;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+form label{
+    font-style: italic; 
+    font-weight: bold;
+    background-color: moccasin;
+}
+li{
+    list-style-type: none;
+}
