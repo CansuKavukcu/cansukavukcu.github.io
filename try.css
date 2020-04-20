@@ -1,0 +1,24 @@
+ .zenzik {
+    color: red;    
+    font-family: Arial;
+    font-size: 120%;
+    border: solid 7px mediumvioletred;
+}
+.firfir {
+
+    font-style: italic;  
+    text-align: center;      
+}
+.tiktak{
+    background-color: teal;
+    font-size: 130%;
+    border: solid 7px yellow;
+    
+}
+.tiktak h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(241, 204, 201) ;
+}
