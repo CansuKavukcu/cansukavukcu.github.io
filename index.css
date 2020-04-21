@@ -1,0 +1,60 @@
+.main-content{
+     background-image: url(img/background.svg);
+     background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     -webkit-background-size: 100% 100%;
+     background-size: cover;
+     height: 60em;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: darkgreen;
+    text-align: center;
+    padding: 16px ;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+header {
+    margin: 10px;
+    padding: 5px;
+}
+.name {
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color: wheat;
+    font-weight: bold;
+    
+}
+article {
+    text-align: center;
+}
+article h3 {
+    font-family: cursive;
+    color: darkgreen;
+}
+article p {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+}
