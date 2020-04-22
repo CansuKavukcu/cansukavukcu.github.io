@@ -1,0 +1,32 @@
+h1{
+   color: crimson; 
+   background-color: magenta;
+   font-size: 20px;
+   text-decoration: underline;
+   font-family: Arial;
+   text-align: center;
+}
+p{
+    color: darkorchid;
+    text-align: right;
+    line-height: 15px;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 60px;
+    margin: 50px;
+}
+ul{
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: coral; */
+    /* border: solid coral; */
+    border-bottom: 4px dotted  coral;
+    border-left: 8px dashed coral;
+    padding: 30px;
+}
+li{
+    list-style-type: square;
+    /*text-shadow: 2px 2px lightpink; */
+    text-shadow: 2px 2px #a31d1d; 
+}
+

@@ -1,0 +1,36 @@
+ .zenzik {
+    color: red;    
+    font-family: Arial;
+    font-size: 120%;
+    border: solid 7px mediumvioletred;
+}
+.firfir {
+
+    font-style: italic;  
+    text-align: center;      
+}
+.tiktak{
+    background-color: teal;
+    font-size: 130%;
+    border: solid 7px yellow;
+    
+}
+.tiktak h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(241, 204, 201) ;
+}
+#myHeader {
+    background-color: pink;
+    color: purple;
+    padding: 40px;
+    text-align: center;
+}
+.city {
+    background-color: thistle;
+    color: yellow;
+    padding: 30px;
+    text-align: left;
+}
